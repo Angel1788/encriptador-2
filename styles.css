@@ -23,6 +23,7 @@ header{
 
 .texto {
   position: absolute;
+  color: aqua;
   width: 42%;
   height: 60%;
   left: 12%;
@@ -36,9 +37,7 @@ header{
   background-color:black;
 }
 
-.text{
-  color: white;
-}
+
 
 .texto::placeholder {
   color:white;
