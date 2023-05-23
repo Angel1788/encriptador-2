@@ -1,23 +1,24 @@
 * {
   margin: 0;
   padding: 0;
+  background: black;
 }
 
 header{
-  background: #f3f5fc;
+  background:black;
 }
 
 .logo{
-  padding-top: 15%;
+  padding-top: 0%;
   margin-left: 12%;
-  width: 20px;
+  width: 20%;
 }
 
 .container {
   position: relative;
   width: 100vw;
   height: 100vh;
-  background: #f3f5fc;
+  background: black;
 }
 
 .texto {
@@ -32,11 +33,15 @@ header{
   font-weight: 400;
   font-size: 32px;
   line-height: 150%;
-  background-color: #f3f5fc;
+  background-color:black;
+}
+
+.text{
+  color: white;
 }
 
 .texto::placeholder {
-  color: #0a3871;
+  color:white;
 }
 
 .texto:focus,
@@ -63,7 +68,7 @@ header{
   font-weight: 400;
   font-size: 12px;
   line-height: 150%;
-  color: #495057;
+  color: white;
   opacity: 0.8;
   flex: none;
   order: 1;
@@ -134,8 +139,8 @@ header{
   height: 90%;
   left: 60%;
   top: 5%;
-  background: #fff;
-  box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+  background:black;
+  box-shadow: 0px 24px 32px -8px  rgba(39, 37, 37, 0.08);
   border-radius: 32px;
 }
 
@@ -160,7 +165,7 @@ header{
   font-size: 24px;
   line-height: 120%;
   text-align: center;
-  color: #343a40;
+  color: white;
 }
 
 .mensaje-encriptado p {
@@ -171,7 +176,7 @@ header{
   font-size: 16px;
   line-height: 150%;
   text-align: center;
-  color: #495057;
+  color: white;
 }
 
 .encriptado img {
